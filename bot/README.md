@@ -1,3 +1,12 @@
+## 注意⚠️
+整体逻辑是：
+1. 登录amazon
+2. 输入关键字
+3. 点击商品 获取商品 标题、价格、图片、联盟营销链接、时间戳
+4. 将数据同步`firestore.client()`
+5. 回到搜索结果页 换下一个商品，重复3.
+
+
 ### Python script configuration.
 
 In order to run the python script you will need to run the following command with pip. 
